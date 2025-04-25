@@ -24,12 +24,12 @@ This React application built with Vite showcases several key React concepts thro
    - Displays user information using props
    - Shows profile picture, name, and bio
 
-2. **Counter** ([View Code](https://github.com/hjoseph777react-user-profile/blob/main/src/Counter.jsx))
+2. **Counter** ([View Code](https://github.com/hjoseph777/react-user-profile/blob/main/src/Counter.jsx))
    - Demonstrates React state management
    - Features increment, decrement, and reset functionality
    - Uses useState hook for state management
 
-3. **TodoList** ([View Code](https://github.com/hjoseph7777/react-user-profile/blob/main/src/TodoList.jsx))
+3. **TodoList** ([View Code](https://github.com/hjoseph777/react-user-profile/blob/main/src/TodoList.jsx))
    - Showcases event handling and conditional rendering
    - Allows adding, editing, completing, and removing todo items
    - Uses session storage for data persistence
@@ -44,7 +44,7 @@ This React application built with Vite showcases several key React concepts thro
 
 ### Navigation Components
 
-- **Navbar** ([View Code](https://github.com/hjoseph777/reactuUser-profile/blob/main/src/Components/Navbar.jsx))
+- **Navbar** ([View Code](https://github.com/hjoseph777/react-User-profile/blob/main/src/Components/Navbar.jsx))
   - Provides navigation between Home and About pages
   - Uses React Router for client-side routing
 
