@@ -1,0 +1,14 @@
+/* Base layout */
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+/* Main content area */
+.App-main {
+  flex: 1;
+  width: 100%;
+}

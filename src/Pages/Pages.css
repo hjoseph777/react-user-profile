@@ -1,0 +1,98 @@
+/* Shared styles for pages */
+.page-container {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  min-height: calc(100vh - 70px); /* Account for navbar height */
+}
+
+/* Home page card layout */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+/* Adjust the second cards-row to center the single card */
+.cards-row:nth-child(2) {
+  justify-content: center;
+}
+
+/* Ensure the API card (now the first and only child of second row) is properly styled */
+.cards-row:nth-child(2) .card-section:first-child {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+}
+
+.card-section {
+  flex: 1 1 300px;
+  min-width: 300px;
+  max-width: 450px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  height: auto;
+  min-height: 400px;
+}
+
+/* Position the cards properly */
+.state-management-section {
+  order: 2;
+  margin: 0 auto;
+}
+
+.event-handling-section {
+  order: 3;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.state-management-section, .event-handling-section {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+}
+
+.state-management-section h2, .event-handling-section h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* About page styling */
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-card ul {
+  margin-top: 1rem;
+  line-height: 1.8;
+}
+
+.api-fetching-section {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+}
+
+.api-fetching-section h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
