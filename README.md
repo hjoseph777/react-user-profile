@@ -119,6 +119,4 @@ react-User-profile/
 - Fetch API
 
 
-## Live Demo
 
-View the live demo of this application: [React Learning Portfolio](https://hjoseph777.github.io/react-User-profile)
