@@ -4,7 +4,7 @@ This project is a comprehensive React application showcasing various fundamental
 
 # ## Live Demo
 
-View the live demo of this application: [React Learning Portfolio](https://hjoseph777.github.io/react-User-profile)
+View the live demo of this application: [React Learning Portfolio](https://hjoseph777.github.io/react-user-profile)
 
 ## Application Overview
 
